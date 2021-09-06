@@ -1,12 +1,13 @@
 
 /* nav bar  NAV.js */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;1,400&family=Berkshire+Swash&family=Indie+Flower&display=swap');
-  body{ /*font-family: 'Alegreya', serif; */
+body{ /*font-family: 'Alegreya', serif; */
 font-family: 'Berkshire Swash', cursive;
 font-family: 'Indie Flower', cursive;
 font-weight: 600;
 } 
 
+/* nav bar */
 .navbar{background-color:transparent!important;
 color:orange !important;
 margin-bottom: 100px;
@@ -15,14 +16,31 @@ box-shadow: 1px 1px 18px rgb(46, 102, 139);
 font-family: 'Alegreya', serif;
 font-family: 'Berkshire Swash', cursive;
 /* font-family: 'Indie Flower', cursive; */
-}
 
+}
+/* nav bar brand */
+nav .navbar-brand {
+  color: orange !important;
+  font-weight: 600;
+  font-size: 24px;
+}
+/* brand span (1)*/
+nav .navbar-brand span:nth-child(1) {
+  color: black;
+  font-size: 28px;
+}
+/* brand span (2)*/
+nav .navbar-brand span:nth-child(2) {
+  font-size: 30px;
+}
 /* span in nav bar */
 /* ul items */
 .navbar ul{
 text-transform: capitalize;
 margin-left: 180px;
+
 }
+
 /* items */
 .navbar ul li a {color:rgb(46, 102, 139) ;
 font-size:25px;
@@ -30,6 +48,7 @@ margin-left: 4px;
 border-radius: 3px;
 padding:7px;
 padding-right:10px
+
 }
 
 .navbar ul li a:hover{border-bottom: 2px solid  rgb(46, 102, 139);
@@ -44,6 +63,7 @@ border-top: 2px solid orange;
 /* input[type='text' */
 .form-control {border:2px solid rgb(211, 209, 209)}
 
+
 /* button */
 .btn{background-color: rgb(46, 102, 139)!important;
 color:white !important   ;
@@ -54,8 +74,10 @@ font-weight: 600;
 margin-left: 200px;
 
 }
+
 .btn:hover{background-color: orange;
 transition: all .5s ease;
+
 }
 
 
@@ -193,12 +215,13 @@ margin-top: 40px;
 
 }
 
+/* h5 */
 .cardCarsoul .texts h5{ font-family: 'Alegreya', serif;
 font-family: 'Berkshire Swash', cursive;
 color:orange;
 font-size: 17px;
 }
-
+/* h3 */
 .cardCarsoul .texts h3{font-size:32px;
 font-weight: 900;
 color:white;
@@ -210,12 +233,12 @@ margin-bottom: 17px;
 padding:7px;
 
 }
-
+/* span */
 .card-text span{font-size:22px;
 color:orange
 
 }
-
+/* p */
 .cardCarsoul p{font-size: 29px;
 
 }
@@ -283,11 +306,12 @@ padding-bottom: 20px;
 
 
 }
-
+/* a  */
 footer li a {color:rgb(211, 210, 210);
 margin-left: 40px;
 margin-top:60px;
 }
+
 #button-addon1 {
   color: orange !important;
   width:10px
@@ -296,7 +320,7 @@ margin-top:60px;
 .mb-2 {
   color:white !important;
 }
-
+/* placeholder */
 .form-control::placeholder {
   font-size: 0.95rem;
   color: #aaa !important;
@@ -311,7 +335,7 @@ margin-top:60px;
 font-size:25px;
 background-color: rgb(241, 236, 236);
 }
-
+/*copyright p */
 .copyright p:hover{color:rgb(199, 197, 197)
 }
 
@@ -331,3 +355,6 @@ padding:7px;
 margin:auto;
 text-align: center;
 }
+
+/*end project */
+
